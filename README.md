@@ -1,16 +1,120 @@
-# React + Vite
+# 🛒 SmartCart – Modern E-commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+SmartCart is a responsive and modern e-commerce web application built using React.
+It allows users to browse products, filter them efficiently, and manage a shopping cart with a clean UI and smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔍 **Product Search (Debounced)**
+* 🧩 **Category Filtering**
+* 💰 **Price Range Filtering**
+* 🛒 **Cart Management (Add / Remove / Quantity Control)**
+* 🌙 **Dark / Light Mode (Persistent)**
+* 📱 **Responsive Design**
+* ⚡ **Fast & Optimized UI**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **State Management:** Zustand
+* **API:** FakeStore API
+* **Routing:** React Router
+
+---
+
+## 🎨 UI Highlights
+
+* Clean and minimal design
+* Custom color system:
+
+  * Light Mode → `#EED36D` & `#194F70`
+  * Dark Mode → `#1A1A2E` & `#FFB400`
+* Consistent spacing and typography
+* Subtle hover interactions (no heavy animations)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/      # Reusable UI components
+│── pages/           # Home, Cart, Product Detail
+│── store/           # Zustand state management
+│── services/        # API calls
+│── utils/           # Custom hooks (debounce)
+│── App.jsx
+│── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/smartcart.git
+
+# Navigate to project
+cd smartcart
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+You can deploy this project easily using:
+
+* Vercel
+* Netlify
+
+---
+
+## 🧠 Key Learnings
+
+* Efficient state management using Zustand
+* Building reusable components
+* Implementing debounced search
+* Designing consistent UI systems
+* Managing global theme (dark/light mode)
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots here after deployment)*
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 User authentication
+* ❤️ Wishlist feature
+* 💳 Payment integration
+* 📦 Order history
+
+---
+
+## 👨‍💻 Author
+
+**Suranjan Sengupta**
+ECE Student | Frontend Developer
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub and feel free to fork it!
