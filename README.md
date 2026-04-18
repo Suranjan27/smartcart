@@ -1,5 +1,11 @@
 # 🛒 SmartCart – Modern E-commerce Frontend
 
+## 🚀 Live Demo
+
+👉 https://smartcart-tau.vercel.app/
+
+---
+
 ## 🚀 Overview
 
 SmartCart is a responsive and modern e-commerce web application built using React.
@@ -76,10 +82,7 @@ npm run dev
 
 ## 🌐 Deployment
 
-You can deploy this project easily using:
-
-* Vercel
-* Netlify
+Deployed on Vercel
 
 ---
 
@@ -95,7 +98,7 @@ You can deploy this project easily using:
 
 ## 📸 Screenshots
 
-*(Add screenshots here after deployment)*
+*(Add screenshots here to make your repo more attractive)*
 
 ---
 
