@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.js"; 
+
+@variant dark (&:where(.dark, .dark *));
+
+ @keyframes spin-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.animate-spin-reverse {
+  animation: spin-reverse 1s linear infinite;
+}
